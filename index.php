@@ -1,6 +1,6 @@
 <html>
        <head>
-          <title>commitpage</title>
+          <title>index</title>
           <style>
               div{background-color: pink; width:100%; padding:5px}
 
@@ -31,31 +31,14 @@
       <body>
         <div class="container">
          <div class="row">
-          <nav class="navbar>
-           
-            <div class="navbar-nav">
-                <a class="nav-item">
-                    <a rel="nav-link" href="Addpage.html">Add</a>
-                </a>
-                <br>
-                <a class="nav-item">
-                    <a rel="nav-link" href="Contactpage.html"> Contact us</a>
-                </a>
-                <br>
-                <a class="nav-item">
-                    <a rel="nav-link" href="displaypage.html">Our display</a>
-                </a>
-                <br>
-                <a class="nav-item">
-                    <a rel="nav-link" href="indexpage.html"> index</a>
-                </a>
-              </div>
-          </nav>
+          <?php
+          include("nav.html");
+          ?>
          </div>
          
-          <b><h1>This is the commit page.</h1></b>
+          <b><h1>This is the index page.</h1></b>
           <div class="container">
-                <form>
+                
                     <div class="row">
                       <div class="col-lg-4">
                             <div class="card">
@@ -68,9 +51,10 @@
                                         <li><p class="card-text">Python.</p></li>
                                         <li><p class="card-text">CSS.</p></li>
                                     </ul>
-                                </div>
+                               </div>  
+                              </div>
                             </div>
-                        </div>
+                        
                         <hr>
                         <hr>
                         </div class="col-lg-4">
@@ -91,30 +75,29 @@
                                         <li><p class="card-text">Best ball type to use when to use it.</p></li>
                                     </ul>
                                 </div>
+                              </div>
+                          </div>
+                  </div>
+                        <hr>
+                        
+                            <div class="row">
+                                <marquee><div class="col-lg-4">
+                                  <h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2>
+                              </div></marquee>
+                                <hr>
+                              <marquee><div class="col-lg-4">
+                                  <h2>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h2>
+                              </div></marquee>
+                                <hr>
+                              <marquee><div class="col-lg-4">
+                                  <h2> Follow us on tiktok, facebook, instagram and youtube at Basketball256.</h2>
+                                </div></marquee>
                             </div>
-                        </div>
-                    </div>
-                </form>
-                <hr>
-                <form>
-                    <div class="row">
-                      <marquee><div class="col-lg-4">
-                        <h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2>
-                      </div></marquee>
-                      <hr>
-                      <marquee><div class="col-lg-4">
-                        <h2>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h2>
-                      </div></marquee>
-                      <hr>
-                      <marquee><div class="col-lg-4">
-                        <h2> Follow us on tiktok, facebook, instagram and youtube at Basketball256.</h2>
-                      </div></marquee>
-                    </div>
-                </form>
-              </div>            
-                <button type="submit btn btn-primary">submit</button> 
-                <script src="js/bootstrap.min.js"></script>
-          </div>             
-    </body>
-</html>
-        
+                        
+          </div>            
+                        <button type="submit btn btn-primary">submit</button> 
+                        <script src="js/bootstrap.min.js"></script>
+                  </div>             
+            </body>
+        </html>
+                

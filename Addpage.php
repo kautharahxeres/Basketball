@@ -12,15 +12,14 @@
         </style>
     </head>
     <body bgcolor="skyblue">
-        <a href="Aboutpage.html">ABOUT</a>
-        <a href="Addpage.html">ADD</a>
-        <a href="Contactpage.html">CONTACT</a>
-        <a href="displaypage.html">DISPLAY</a>
-        <a href="indexpage.html">INDEX</a>
+
         <b><h1>This is the add page.</h1></b>
     <h3>Fill in carefully!</h3>
     <div class="container">
         <div class="row" style="border:solid 4px red;">
+         <?php
+            include("nav.html");
+          ?>
             <div class="col-lg-6" style="border:solid 5px ;">
                 <form>
                     <div class="form-group">

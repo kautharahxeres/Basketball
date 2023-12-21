@@ -16,20 +16,65 @@
             
                 
                 <div class="row"  style="border:solid 8px red;">
-                    <a href="Aboutpage.html">ABOUT PAGE</a>
-                    <a href="Addpage.html">ADD PAGE</a>
-                    <a href="Contactpage.html">CONTACT PAGE</a>
-                    <a href="displaypage.html">DISPLAY PAGE</a>
-                    <a href="indexpage.html">INDEX PAGE</a>
+                     <?php
+                        include("nav.html");
+                     ?>
                 </div>
                 
                 <div class="row" style="border:solid 4px black;" >
                     <div class="col-lg-4">
                         <h3>About Basketball</h3> 
                         <p><b>Basketball</b> is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court.</p>
-                        <img src="basket1.jpg" width="250" height="200">
-                        <img src="basket2.jpg" width="200" height="200">
-                        <img src="basket3.jpg" width="100" height="200">
+                        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/image3.png" alt="image1" />
+            <!-- Add the overlay element -->
+            <div class="overlay"></div>
+            <!-- Add content on top of the carousel -->
+            <div class="carousel-content">
+                <h1 style="font-size:50px;">SOFTECH SOLUTIONS UGANDA</h1>
+                <h4 style="font-size:30px;">Leading Web Development hub in Uganda</h4>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="basket1.webp" alt="image2" />
+            <!-- Add the overlay element -->
+            <div class="overlay"></div>
+            <div class="carousel-content">
+                <h2>We offer Backend Training</h2>
+                <p>We have trained thousands of students in web development</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="basket2.jpg" alt="image3" />
+            <!-- Add the overlay element -->
+            <div class="overlay"></div>
+            <div class="carousel-content">
+                <h2>Superb training in frontend</h2>
+                <p style="text-align: center;">We offer training in HTML5, CSS, Bootstrap5 and Javascript Frameworks</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="basket3.jpg" alt="image4" />
+            <!-- Add the overlay element -->
+            <div class="overlay"></div>
+            <div class="carousel-content">
+                <h2>We offer DevOps</h2>
+                <p>We have excellent trainings on hosting applications
+                    <br>both online and locally using docker, kubernetes, git, CD/CI</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
                     </div>
                     <hr>
                     <hr> 

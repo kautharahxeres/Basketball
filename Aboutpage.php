@@ -11,17 +11,15 @@
     </head>
     
     <body bgcolor="skyblue">
-            <a href="Aboutpage.html">ABOUT PAGE</a>
-            <a href="Addpage.html">ADD PAGE</a>
-            <a href="Contactpage.html">CONTACT PAGE</a>
-            <a href="displaypage.html">DISPLAY PAGE</a>
-            <a href="indexpage.html">INDEX PAGE</a>
           
         <h1>This is my about page.</h1> 
         
           <div class="container">
                 <form>
                     <div class="row">
+                    <?php
+                         include("nav.html");
+                    ?>
                       <div class="col-lg-4">
                         <h3>This is the About page</h3>
                       </div>

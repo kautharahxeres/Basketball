@@ -21,12 +21,9 @@
         <body bgcolor="lightgreen">
             <div class="container">
                     <div class="row">
-                        <a href="Aboutpage.html">ABOUT PAGE</a>
-                        <a href="Addpage.html">ADD PAGE</a>
-                        <a href="Contactpage.html">CONTACT PAGE</a>
-                        <a href="displaypage.html">DISPLAY PAGE</a>
-                        <a href="indexpage.html">INDEX PAGE</a>
-                        <b><h1>This is the contact page.</h1></b>
+                    <?php
+                         include("nav.html");
+                     ?>
                     </div>
 
                     <div class="row" style="border:solid 4px red;">

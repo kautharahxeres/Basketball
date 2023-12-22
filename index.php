@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>This is the index page.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
      div{background-color: aqua; width:100%; padding:5px}
       h1{color: #40a944;  text-align: center;}
@@ -14,14 +15,14 @@
   </head>
   <body>
     <div class="container">
-      <form>
+      
           <div class="row">
           <?php
             include("nav.html");
           ?>
           </div>
-      </form>
-      <form>    
+      
+        
           <div class="row"style="border:solid 2px black;" >
             <div class="col-lg-4" style="border:solid 2px black;">
               <b><h3>Why I love programming.</h3></b>
@@ -33,14 +34,10 @@
                 <li><p>Bootsrap</p></li>
               </ul>
             </div>
-            <hr>
-            <hr>
             <div class="col-lg-4" style="border:solid 2px black;" >
              <h3> MY IMAGE</h3>
              <img src="mulungi.jpg" width="250" height="300">
             </div>
-            <hr>
-            <hr>
             <div class="col-lg-4" style="border:solid 2px black;" >
               <h3>About my project</h3>
               <ul type="s circle">
@@ -53,8 +50,7 @@
               </ul>
             </div>
           </div>
-      </form>
-      <form>
+          
           <div class="row" style="border:solid 2px black;" >
               <div class="col-lg-4"style="border:solid 2px black;">
                   <h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2>

@@ -1,103 +1,77 @@
 <html>
-       <head>
-          <title>index</title>
-          <style>
-              div{background-color: pink; width:100%; padding:5px}
-
-              h1{color: #40a944;  text-align: center;}
-
-              p{ font-family:  verdana;font-size: 20px; color: red;}
-              #class1{
-                  background-color: blue;color: yellow; text-align: right; font-size: larger;
-              }
-              .row {
-              display: flex;
-              justify-content: space-between;
-              margin-bottom: 10px;
-              border: yellow;
-            }
-            .cell {
-              border: 20px solid yellow;
-              padding: 12px;
-              flex: 3;
-            } button{
-                     color:blue;
-                }
-                li{color:forestgreen}
-                hr{color:black}
-          </style>
-          <link rel="stylesheet" href="css/bootsrap.min.css">
-      </head>
-      <body>
-        <div class="container">
-         <div class="row">
+  <head>
+    <title>This is the index page.</title>
+    <style>
+     div{background-color: aqua; width:100%; padding:5px}
+      h1{color: #40a944;  text-align: center;}
+      p{ font-family:  verdana;font-size: 20px; color: red;}
+    .class1{background-color: blue;color: yellow; text-align: right; font-size: larger;}
+    .row {display: flex;justify-content: space-between;margin-bottom: 10px;border: yellow; }
+    .column {border: 20px solid yellow;padding: 12px;flex: 3;} 
+    button{color:blue;}
+    li{color:forestgreen} 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+          <div class="row">
           <?php
-          include("nav.html");
+            include("nav.html");
           ?>
-         </div>
-         
-          <b><h1>This is the index page.</h1></b>
-          <div class="container">
-                
-                    <div class="row">
-                      <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body" style="background-color:blue;">
-                                    <h3 class="card-title">Why I love programming.</h3>
-                                    <ul type="blackcircle">
-                                        <li><p class="card-text">Javascript.</p></li>
-                                        <li><p class="card-text">Java.</p></li>
-                                        <li><p class="card-text">PHP.</p></li>
-                                        <li><p class="card-text">Python.</p></li>
-                                        <li><p class="card-text">CSS.</p></li>
-                                    </ul>
-                               </div>  
-                              </div>
-                            </div>
-                        
-                        <hr>
-                        <hr>
-                        </div class="col-lg-4">
-                              <h3>My image</h3>
-                              <img class="img-fluid" src="mulungi.jpg" width="200" height="300">
-                        </div>  
-                        <hr>
-                        <hr>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body" style="background-color:yellow ; border: 20px;">
-                                    <h3 class="card-title">What my website is all about.</h3>
-                                    <ul type="black circle">
-                                        <li><p class="card-text">My website is all about getting to kw basketball.</p></li>
-                                        <li><p class="card-text"> Learnng new basic skills of basketball.</p></li>
-                                        <li><p class="card-text">Simple to undertake before starting a game.</p></li>
-                                        <li><p class="card-text">Simple skills for whether one is short or tall .</p></li>
-                                        <li><p class="card-text">Best ball type to use when to use it.</p></li>
-                                    </ul>
-                                </div>
-                              </div>
-                          </div>
-                  </div>
-                        <hr>
-                        
-                            <div class="row">
-                                <marquee><div class="col-lg-4">
-                                  <h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2>
-                              </div></marquee>
-                                <hr>
-                              <marquee><div class="col-lg-4">
-                                  <h2>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h2>
-                              </div></marquee>
-                                <hr>
-                              <marquee><div class="col-lg-4">
-                                  <h2> Follow us on tiktok, facebook, instagram and youtube at Basketball256.</h2>
-                                </div></marquee>
-                            </div>
-                        
-          </div>            
-                        <button type="submit btn btn-primary">submit</button> 
-                        <script src="js/bootstrap.min.js"></script>
-                  </div>             
-            </body>
-        </html>
+          </div>
+      </form>
+      <form>    
+          <div class="row"style="border:solid 2px black;" >
+            <div class="col-lg-4" style="border:solid 2px black;">
+              <b><h3>Why I love programming.</h3></b>
+              <ul type="circle">
+                <li><p>Javascript</p></li>
+                <li><p>Java</p></li>
+                <li><p>Python</p></li>
+                <li><p>PHP</p></li>
+                <li><p>Bootsrap</p></li>
+              </ul>
+            </div>
+            <hr>
+            <hr>
+            <div class="col-lg-4" style="border:solid 2px black;" >
+             <h3> MY IMAGE</h3>
+             <img src="mulungi.jpg" width="250" height="300">
+            </div>
+            <hr>
+            <hr>
+            <div class="col-lg-4" style="border:solid 2px black;" >
+              <h3>About my project</h3>
+              <ul type="s circle">
+                <li><p>We get to learn about new basic skills of basketball.</p></li>
+                <li><p>Short-term drills for warm-up before starting a game.</p></li>
+                <li><p>Best basketball players in the world.</p></li>
+                <li><p>How to train in the fastest way possible so as to win a game.</p></li>
+                <li><p>How to dribble fastest in a game.</p></li>
+                <h2>"IT'S ALL ABOUT BASKETBALL"</h2>
+              </ul>
+            </div>
+          </div>
+      </form>
+      <form>
+          <div class="row" style="border:solid 2px black;" >
+              <div class="col-lg-4"style="border:solid 2px black;">
+                  <h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2>
+              </div>
+              <hr>
+              <hr> 
+              <div class="col-lg-4"style="border:solid 2px black;">
+              <h2>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h2>  
+              </div>
+              <hr>
+              <hr> 
+              <div class="col-lg-4"style="border:solid 2px black;">
+                  <h2> Follow us on tiktok, facebook, instagram and youtube at Basketball256.</h2> 
+              </div>
+        </div>         
+      </form>
+    </div>  
+  </body>
+</html>
                 

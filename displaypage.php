@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>display  page</title>
+        <title>Our display </title>
         <link rel="stylesheet" href="css/bootsrap.min.css">
         <style>
             .row {display: flex; justify-content: space-between; margin-bottom: 10px;border: yellow; background:pink;}

@@ -1,12 +1,9 @@
 <?php
 
-function addNumbers($num1, $num2)
- { $sum = $num1 + $num2;
-    return $sum;}
+function how_are_you() {
+    echo "How are you?";
+}
 
-$result = addNumbers(5, 3);
-
-
-echo "The sum is: " . $result;
+how_are_you();
 
 ?>

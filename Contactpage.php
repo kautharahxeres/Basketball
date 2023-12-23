@@ -1,6 +1,6 @@
 <html>
         <head>
-            <title>contact page</title>
+            <title>Contact Information</title>
             <style>
                 div{background-color: lightgrey; width:100%; padding:5px}
 
@@ -65,10 +65,11 @@
                                         <option value="love">Love birds</option> 
                                     </select>
                                 </div>   
-                            </form>        
+                                    
                             
                         </div>
-                            <form>
+                        <div class="col-lg-6">
+                            
                                     <div class="form-group">
                                          
                                         <label for="">Python</label>
@@ -85,13 +86,13 @@
                                         <input type="checkbox" name="javascript">
                                            
                                     </div>    
-                            </form>      
-                    
-                                    <button type="submit btn btn-success">submit</button>    
+                                    <button type="submit btn btn-success">submit</button>  
+                        </div>
+                                       
                         
                     </div>
-            </div>
-                        <div class="container">
+            
+                        <div class="row">
                                     
                                 <div class="col-lg-6" style="border:solid 5px skyblue">
                                     <p>Basketball256@gmail.com is our address.Visit our website for more workouts.</p>
@@ -100,6 +101,7 @@
                                     <h3>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h3>
                                 </div>
                         </div>
-                    
+
+            </div>        
     </body>
 </html>

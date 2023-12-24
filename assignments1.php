@@ -1,25 +1,27 @@
 <?php
 
-echo "hello world";
-$x="5";
+echo "<h1>hello world!</h1> <br/>";
+$x= 2;
 $y="John";
 
-echo $x;
-echo $y;
+echo "<h1>I am  $x years old.</h1><br/>";
+echo strtoupper("<h1>My name is $y.</h1><br/>");
+echo strtoupper ("<h1>I always love being $x years old</h1><br/>.");
+;
 ?>
 <html>
     <body>
 
         <?php
         $x =20;
-        $x += 100;
+        $y = 100;
 
-        echo $x;
+        echo strtoupper ("<h1>All I can assure you is that $x+$y is 120.Right?</h1> <br/>");
         ?>
         
     </body>
 </html>
-
+p{ font-family:  verdana;font-size: 20px; color:black;}
 
 
 <style>
@@ -48,5 +50,5 @@ echo $y;
                 hr{color:black}
           </style>
           <link rel="stylesheet" href="css/bootsrap.min.css">
-                        <button type="submit btn btn-primary">submit</button> 
+                        <center><button type="submit btn btn-primary">submit</button></center> 
                         <script src="js/bootstrap.min.js"></script>

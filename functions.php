@@ -12,9 +12,11 @@
 
 
 
-    function addFunction($num1,$num2){
-    $sum= $num1+ $num2;
-    echo "the sum is : $sum1";}
+    function addFunction($num1, $num2)
+    {
+    $sum= $num1+ $num2;}
+   { echo "the sum is  $sum";
+     }
     addFunction(20,30)
 
 

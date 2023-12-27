@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <title> Index .</title>
      <style>
-     div{background-color:pink; width:100%; padding:5px}
+     div{background-color:black; width:100%; padding:5px}
       h1{color: #40a944;  text-align: center;}
       p{ font-family:  verdana;font-size: 20px; color: red;}
     .class1{background-color: blue;color: yellow; text-align: right; font-size: larger;}

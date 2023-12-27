@@ -4,19 +4,8 @@
             <title>Contact Information</title>
             <style>
                 div{ width:100%; padding:5px; }
-
-                h1{color: yellow;}
-
-              
-                .class1{
-                    background-color:yellowgreen;color: forestgreen; font-size: larger;
-                }
-                button{
-                    background: blue ;
-                    color: white;
-                } 
                 .row {display: flex;justify-content: space-between;margin-bottom: 10px;}
-              .cell {border: 20px solid yellow;padding: 12px;flex: 3;}
+                .column {border: 20px solid yellow;padding: 12px;flex: 3;}
             </style>
             <link rel="stylesheet" href="css/bootsrap.min.css">   
         </head>
@@ -74,7 +63,7 @@
                             
                                     <div class="form-group" >
                                         <h3>USE MORE OF!</h3>
-                                        <ul type="blackcircle">
+                                        <ul type="yellow circle">
                                             <li>   
                                                 <label for="">Python</label>
                                                 <input type="checkbox" name="Python">

@@ -4,28 +4,28 @@
         <title>Add info</title>
         <style>
             option{color: forestgreen;}
-            h3{color: brown;   }
+            h3{color: black;}
             button{background: blue ;color: white; }
             div{ width:100%; padding:5px}
-            h1{color: yellow;}
+          
             p{ font-family: verdana;font-size: 20px; color:black;}
-            .class1{background-color:yellowgreen;color: forestgreen; font-size: larger;}
+           
             .row {display: flex;justify-content: space-between;margin-bottom: 10px;}
-              .cell {border: 20px solid yellow;padding: 12px;flex: 3;}
+              .column {border: 20px solid yellow;padding: 12px;flex: 3;}
         </style>
     </head>
-    <body bgcolor="skyblue">
+    <body bgcolor=lightblue>
 
                 <b><h1>This is the add page.</h1></b>
-            <h3>Fill in carefully!</h3>
-            <div class="container">
+                <h3>Fill in carefully!</h3>
+                <div class="container"style="height:100%;">
                 <div class="row" >
                 <?php
                     include("nav.html");
                 ?>
                 </div>  
                 <div class="row" >
-                            <div class="col-lg-6" >
+                            <div class="col-lg-6" style="border:solid;font-size: 30px;color:blue;background-color:grey;">
                             
                                     <div class="form-group">
                                         <label for="playposition">Play position:</label>
@@ -68,27 +68,38 @@
                                 
                             </div>
                         
-                            <div class="col-lg-6">
-                                <div class="form-group">
+                            <div class="col-lg-6" style="border:solid;font-size: 30px;color:purple;background-color:grey;">  >
+                                    <div class="form-group">
                                     <h3>OPEN WITH;</h3>
-                                    <label for="">Tiktok</label>
-                                    <input type="checkbox" name="tiktok">
-
-                                    <label for="">Facebook</label>
-                                    <input type="checkbox" name="facebook">
-
-                                    <label for="">Youtube</label>
-                                    <input type="checkbox" name="youtube">
-
-
-                                    <label for="">Instagram</label>
-                                    <input type="checkbox" name="instagram">
+                                    <ul type="box">
+                                        <li>
+                                            <label for="">Tiktok</label>
+                                            <input type="checkbox" name="tiktok">
+                                        </li>  
                                     
+                                        <li>
+                                            <label for="">Facebook</label>
+                                            <input type="checkbox" name="facebook">
+                                        </li>
+                                    
+                                        <li>
+                                            <label for="">Youtube</label>
+                                            <input type="checkbox" name="youtube">
+                                        </li>
+                                    
+
+                                        <li>
+                                            <label for="">Instagram</label>
+                                            <input type="checkbox" name="instagram"> 
+                                        </li>
+                                   
+                                    </ul>
+                                   
+                <button type="btn btn-success">submit</button>  
                                 </div>
                             </div>        
                             
-                
-                                <button type="btn btn-success">submit</button>    
+                   
                     
                 </div>
             </div>

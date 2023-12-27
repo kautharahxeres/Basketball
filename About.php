@@ -30,35 +30,33 @@
                             <div class="col-lg-4">
                                     <h3>This is the About page</h3>
                                     <h1 class="text-center">some of the basketball styles.</h1>
-                                    <div id="MyCarousel" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="300"></div>
-                                    <div class="carousel-inner">
+                                    <div id="MyCarousel" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="2500">
+                                          <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                  <p class="text-bg-success display-6"></p>
+                                                  <img src="basket1.jpg"  alt="GFG" width="300" height="400"  alt="A man dunking"  />
+                                              </div>
 
-                                        <div class="carousel-item active">
-                                            <img class="img-fluid" src="myimage.jpg"  alt="image1" />
-                                        </div>
+                           
 
-                                        <div class="carousel-item">
-                                            <img class="img-fluid"  src="basket1.jpg" alt="image2" />
-                                        </div>
+                                              <div class="carousel-item">
+                                                  <p class="text-bg-success display-6"></p>
+                                                  <img src="basket2.jpg" alt="GFG" width="300" height="400" class="d-block-50" alt="A man dunking"/>
+                                              </div>
 
-                                        <div class="carousel-item">
-                                            <img class="img-fluid" src="basket2.jpg" alt="image3" />
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <img class="img-fluid" src="basket3.jpg" alt="image4" />
-                                        </div>
-
-                                    </div>
-                                      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                              <span class="visually-hidden"></span>
-                                      </a>
-                                      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                          <span class="visually-hidden">t</span>
-                                      </a>
-                                    </div>
+                                              <div class="carousel-item">
+                                                  <p class="text-bg-success display-6"></p> 
+                                                  <img src="basket3.jpg" alt="GFG" width="300" height="400" class="d-block-50" alt="A man dunking"/>
+                                              </div>
+                                          </div>
+                                          <div>
+                                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden"></span>
+                                            </a>
+                                          
+                                          </div>
+                                      </div>
                             </div>
                             
                               <div class="col-lg-4">

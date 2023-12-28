@@ -12,9 +12,10 @@
            
             .row {display: flex;justify-content: space-between;margin-bottom: 10px;}
               .column {border: 20px solid yellow;padding: 12px;flex: 3;}
+
         </style>
     </head>
-    <body bgcolor=lightblue>
+    <body background="flower.jpg">
 
                 <b><h1>This is the add page.</h1></b>
                 <h3>Fill in carefully!</h3>
@@ -68,9 +69,9 @@
                                 
                             </div>
                         
-                            <div class="col-lg-6" style="border:solid;font-size: 30px;color:purple;background-color:grey;">  >
+                            <div class="col-lg-6" style="border:solid;font-size: 30px;color:purple;background-color:grey" >  
                                     <div class="form-group">
-                                    <h3>OPEN WITH;</h3>
+                                    <pulse><h3>OPEN WITH;</h3></pulse>
                                     <ul type="box">
                                         <li>
                                             <label for="">Tiktok</label>

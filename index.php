@@ -18,7 +18,7 @@
     </style>
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
-  <body>
+  <body background="basket1.jpg" >
     <div class="container">
       
           <div class="row" style= "border:solid 2px black; border-radius:50px;k;">
@@ -38,8 +38,12 @@
                 <li><p>PHP</p></li>
                 <li><p>Bootsrap</p></li>
               </ul>
+              <video width="300px" height="200"  controls>
+                  <source src="vid.mp4" type="video/mp4">
+                  <source src="vid.ogg" type="video/ogg">Your browser does not support the video tag.
+              </video>
             </div>
-            <div class="col-lg-4" style="border:solid 2px black;border-radius:50px;background-color:aqua" >
+            <div class="col-lg-4" style="border:solid 2px black;border-radius:50px;background-color:blue;" >
              <h3>WEB IMAGE CORNER!!</h3>
              <marquee>
                 <img src="basket1.jpg" >

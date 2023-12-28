@@ -9,7 +9,7 @@
             </style>
             <link rel="stylesheet" href="css/bootsrap.min.css">   
         </head>
-        <body bgcolor="pink">
+        <body background="hat.png">
             <div class="container">
                     <div class="row">
                     <?php

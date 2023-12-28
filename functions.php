@@ -4,20 +4,24 @@
     </head>
     <body>
     <?php
-    function SendEmail()
+    function SendEmail($aro,$ani)
 
-    {echo "Hello,how a you?" ;}
+    {echo "Hello $aro and $ani,how a you?<br>" ;}
 
-    SendEmail();
+    SendEmail("cake","soda");
+    SendEmail("biscuit","sugar");
+    SendEmail("sweet","chocolate");
 
 
 
-    function addFunction($num1, $num2)
-    {
-    $sum= $num1+ $num2;}
-   { echo "the sum is  $sum";
-     }
-    addFunction(20,30)
+    function add($num1, $num2)
+    
+    {echo  "The sum of $num1 + $num2 is 50.<br>" ;}
+    
+
+    add(20,30);
+    add(10,40);
+    add(5,45);
 
 
     ?>

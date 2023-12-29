@@ -9,9 +9,9 @@
             </style>
             <link rel="stylesheet" href="css/bootsrap.min.css">   
         </head>
-        <body background="hat.png">
+        <body background="flower.jpg">
             <div class="container">
-                    <div class="row">
+                    <div class="row" background-color="red">
                     <?php
                          include("nav.html");
                      ?>
@@ -88,7 +88,7 @@
                                      
                     </div>
             
-                        <div class="row" style="background-color:blue; ">
+                        <div class="row" style="background-color:yellow; ">
                                     
                                
                                 <div class="col-lg-12"style="border:solid; font-size: 30px;color:white;background-color:black;">

@@ -4,7 +4,12 @@
             <title>About us</title>
             <style>
               /* Add some basic styling for better visualization */
-             
+             .column{
+              background-image:url("flower.jpg");
+              background-size:cover;
+             background-position:center;
+             background-repeat:no-repeat;
+             }
               img{
                 width: 200px;
                 border-radius: 100px;
@@ -28,80 +33,71 @@
             
             <div class="container">
                     
-                      <div class="row">
+                      <div class="row" style="border:solid 40px;font-size: 15px;color:grey;background-color:white;">
                             <?php
                                 include("nav.html");
                             ?>
                        </div>
                        <div class="row">     
-                            <div class="col-lg-4" style="border:solid 40px;font-size: 30px;color:blue;background-color:lightblue;">
+                            <div class="col-lg-4" style="border:solid 40px;font-size: 30px;color:magenta;background-color:gold;">
                                     <h3>This is the About page</h3>
-                                    <h2 class="text-center">some of the basketball styles.</h2>
+                                    <h2 class="text-center">Some of the basketball styles.</h2>
                                     <?php
                                        include("carousel.html");
                                     ?>
                             </div>
                             
-                              <div class="col-lg-4" style="border:solid 40px;font-size: 30px;color:black;background-color:lightblue;">
+                              <div class="col-lg-4" style="border:solid magenta 40px;font-size: 30px;background-color:gold;">
                                     <h3>This is the About page</h3>
-                              
-                                  <table background="Tulips,jpg">
-                                    <tr>
-                                      <th>number</th>
-                                      <th>first name</th>
-                                      <th>second name</th>
-                                      <th>Address</th>
-                                    </tr>
-                                    <tr>
-                                      <td>1</td>
-                                      <td>Mercy</td>
-                                      <td>Akampulira</td>
-                                      <td>0754638295</td>
-                                    </tr>
-                                    <tr>
-                                      <td>2</td>
-                                      <td>Owen</td>
-                                      <td>Mugarura</td>
-                                      <td>0752389072</td>
-                                    </tr>
-                                    <tr>
-                                      <td>3</td>
-                                      <td>Mahoro</td>
-                                      <td>Keeza</td>
-                                      <td>0793456245</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Raymond</td>
-                                        <td>Masette</td>
-                                        <td>0734265743</td>
-                                      
-                                    </tr>
-                                  </table><br>
+                                    <?php
+                                       include("tables.html");
+                                    ?> <br>
                                               
                                           <?php
                                   include("details.php")
                                         ?>
                               </div>
                               
-                              <div class="col-lg-4"style="border:solid 40px;font-size: 30px;color:blue;background-color:lightblue;">
+                              <div class="col-lg-4"style="border:solid 40px;font-size: 30px;color:magenta;background-color:gold;">
                                 <h3>This is the About page</h3>
+                                            
+                                <?php
+                                  include("mystylings.html")
+                                        ?>
                               </div>
                     </div>
                 
                   
                         <div class="row" >
-                          <div class="col-lg-4">
-                            <h3>This is the About page</h3>
+                          <div class="col-lg-4" style="border:solid 40px;font-size: 30px;color:magenta;background-color:gold;">
+                            <h3>All about our page.</h3>
+                            <h4>Basic drills to warm you up before going for a game.</h4>
+                            <h4>All about our page.</h4>
+                            <h5>All about our page.</h5>
+                            <h5>All about our page.</h5>
+                            <h6>All about our page.</h6>
+                            <h6>All about our page.</h6>
                           </div>  
           
                        
-                          <div class="col-lg-4">
-                            <h3>This is the About page</h3>
+                          <div class="col-lg-4" style="border:solid 40px;font-size: 30px;color:magenta;background-color:gold;">
+                            <h3>All about our page.</h3>
+                            <h4>Basic drills to warm you up before going for a game.</h4>
+                            <h4>All about our page.</h4>
+                            <h5>All about our page.</h5>
+                            <h5>All about our page.</h5>
+                            <h6>All about our page.</h6>
+                            <h6>All about our page.</h6>
                           </div>
                           
-                          <div class="col-lg-4">
+                          <div class="col-lg-4" style="border:solid 40px;font-size: 30px;color:magenta;background-color:gold;">
                             <h3>This is the About page</h3>
+                            <h4>Basic drills to warm you up before going for a game.</h4>
+                            <h4>All about our page.</h4>
+                            <h5>All about our page.</h5>
+                            <h5>All about our page.</h5>
+                            <h6>All about our page.</h6>
+                            <h6>All about our page.</h6>
                           </div>
                         </div>
                    

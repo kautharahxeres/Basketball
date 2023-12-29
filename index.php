@@ -7,7 +7,7 @@
       h1{color: #40a944;  text-align: center;}
       p{ font-family:  verdana;font-size: 20px; color: red;}
     .class1{background-color: blue;color: yellow; text-align: right; font-size: larger;}
-    .row {display: flex;justify-content: space-between;margin-bottom: 10px;border: yellow; }
+    .row {display: flex;justify-content: space-between;margin-bottom: 10px; }
     .column {border: 20px solid yellow;padding: 12px;flex: 3;} 
     button{color:blue;}
     li{color:forestgreen}
@@ -17,14 +17,15 @@
     } 
     </style>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+   
   </head>
-  <body background="basket1.jpg" >
+  <body background="basket3.jpg" >
     <div class="container">
       
-          <div class="row" style= "border:solid 2px black; border-radius:50px;k;">
-          <?php 
-            include("nav.html");
-          ?>
+          <div class="row" >
+            <?php 
+              include("nav.html");
+            ?>
           </div>
       
         
@@ -43,7 +44,7 @@
                   <source src="vid.ogg" type="video/ogg">Your browser does not support the video tag.
               </video>
             </div>
-            <div class="col-lg-4" style="border:solid 2px black;border-radius:50px;background-color:blue;" >
+            <div class="col-lg-4" style="border:solid 2px black;border-radius:50px;background-color:violet;" >
              <h3>WEB IMAGE CORNER!!</h3>
              <marquee>
                 <img src="basket1.jpg" >
@@ -69,11 +70,11 @@
                   <h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2>
               </div>
               
-              <div class="col-lg-4"style="border:solid 2px black;border-radius:50px;background-color:aqua">
+              <div class="col-lg-4"style="border:solid 2px black;border-radius:50px;background-color:violet;">
                   <h2>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h2>  
               </div>
                
-              <div class="col-lg-4"style="border:solid 2px black;border-radius:50px;background-color:aqua">
+              <div class="col-lg-4"style="border:solid 2px black;border-radius:50px;background-color:aqua;">
                   <h2> Follow us on tiktok, facebook, instagram and youtube  @Basketball256.</h2> 
               </div>
         </div>         

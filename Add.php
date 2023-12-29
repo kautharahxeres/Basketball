@@ -15,12 +15,12 @@
 
         </style>
     </head>
-    <body background="flower.jpg">
+    <body background="hat.png">
 
                 <b><h1>This is the add page.</h1></b>
-                <h3>Fill in carefully!</h3>
+                <h3 style="color:white;">Fill in carefully!</h3>
                 <div class="container"style="height:100%;">
-                <div class="row" >
+                <div class="row" style="border:solid 40px;font-size: 15px;color:grey;background-color:grey;" >
                 <?php
                     include("nav.html");
                 ?>

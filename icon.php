@@ -3,7 +3,7 @@
         <title>Navigation Bar with different icons</title>
         <!-- change or page title with the help of the title tags-->
         <link rel="stylesheet" type="text/css" href="nav.css">
-        <!-- connect css file with html
+        <!-- connect css file with html-->
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             body{

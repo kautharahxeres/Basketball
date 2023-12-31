@@ -16,7 +16,7 @@
           </style>    
        
     </head>
-    <body bgcolor="bromn">
+    <body bgcolor="teal">
         <b><h1>This is the display page.</h1></b>    
         <div class="container">
             
@@ -65,7 +65,7 @@
 
                     </div>
              </div>
-                <div class="row" style="border:solid 8px brown;border-radius:50px;background-color:pink;" >
+                <div class="row" style="border:solid 8px brown;border-radius:50px;background-color:teal;" >
                     <div class="col-lg-4"style="border:solid 8px brown;border-radius:50px;background-color:white;">
                        <marquee><h2>Basketball256@gmail.com is our address.Visit our website for more workouts.</h2></marquee>
                     </div>

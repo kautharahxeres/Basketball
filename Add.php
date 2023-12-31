@@ -20,13 +20,13 @@
                 <b><h1>This is the add page.</h1></b>
                 <h3 style="color:white;">Fill in carefully!</h3>
                 <div class="container"style="height:100%;">
-                <div class="row" style="border:solid 40px;font-size: 15px;color:grey;background-color:grey;" >
+                <div class="row" style="border:solid 20px; font-size:15px; color:purple; background-color:teal;" >
                 <?php
                     include("nav.html");
                 ?>
                 </div>  
                 <div class="row" >
-                            <div class="col-lg-6" style="border:solid;font-size: 30px;color:blue;background-color:grey;">
+                            <div class="col-lg-6" style="border:solid 15px; font-size:30px; color:purple; background-color:grey;">
                             
                                     <div class="form-group">
                                         <label for="playposition">Play position:</label>
@@ -69,7 +69,7 @@
                                 
                             </div>
                         
-                            <div class="col-lg-6" style="border:solid;font-size: 30px;color:purple;background-color:grey" >  
+                            <div class="col-lg-6" style="border:solid 20px; font-size:30px; color:purple; background-color:grey" >  
                                     <div class="form-group">
                                     <pulse><h3>OPEN WITH;</h3></pulse>
                                     <ul type="box">

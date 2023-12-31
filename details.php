@@ -1,3 +1,4 @@
+<html>
 <body>
     <?php
 $d=date("D");
@@ -42,3 +43,4 @@ echo "<h1>hello world!</h1> <br/>";
   add(5,45);
   ?>
 </body>
+</html>

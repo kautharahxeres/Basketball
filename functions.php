@@ -5,6 +5,7 @@
     <body>
     <?php
     function SendEmail($aro,$ani)
+    ./
 
     {echo "Hello $aro and $ani,how a you?<br>" ;}
 

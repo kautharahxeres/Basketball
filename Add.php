@@ -15,7 +15,7 @@
 
         </style>
     </head>
-    <body background="hat.png">
+    <body background="back1.jpg">
 
                 <b><h1>This is the add page.</h1></b>
                 <h3 style="color:white;">Fill in carefully!</h3>

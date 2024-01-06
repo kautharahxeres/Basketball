@@ -5,39 +5,39 @@
             <style>
                 div{ width:100%; padding:5px; }
                 .row {display: flex;justify-content: space-between;margin-bottom: 10px;}
-                .column {border: 20px solid yellow;padding: 12px;flex: 3;}
+                .column {border: 20px solid ;padding: 12px;flex: 3;}
             </style>
-            <link rel="stylesheet" href="css/bootsrap.min.css">   
+            <link rel="stylesheet" href="css/bootstrap.min.css">   
         </head>
         <body background="flower.jpg">
             <div class="container">
-                    <div class="row" background-color="red">
+                    <div class="row">
                     <?php
                          include("nav.html");
                      ?>
                     </div>
 
-                    <div class="row" style="border:solid;background-color:blue;">
-                        <div class="col-lg-6" style="border:solid ;background-color:black;" >
+                    <div class="row" style="border:solid; background-color:purple;">
+                        <div class="col-lg-6" style="border:solid  ;background-color:black;" >
                             <form style="font-size: 30px;">
-                                <div class="form-group" style="color:white;">
+                                <div class="form-group" style="color:purple;">
                                     <label for="first_name">First Name:</label>
                                     <input type="text" class="firstName" name="first Name">
                                 </div>
-                                <div  style="color:white;">
+                                <div  style="color:purple;">
                                     <label for="last_name">Last Name:</label>
                                     <input type="text" class="lastName" name="last Name" >
                                 </div>
-                                <div style="color:white;" >
+                                <div style="color:purple;" >
                                     <label for="telephone">Tel. Number:</label>
                                     <input type="number" class="Telephone" name="Telephone">
                                 </div>
-                                <div style="color:white;" >
+                                <div style="color:purple;" >
                                     <label for="email">Email Address:</label>
                                     <input type="email" class="Email" name="Email">
                                 </div>
                                 <!-- gender -->
-                                <div class="form-group"style="color:white;" >
+                                <div class="form-group"style="color:purple;" >
                                     <label for="gender">Your Gender:</label>
                                     <select class="form-control" name="gender">
                                         <option value="female">Female</option>
@@ -46,7 +46,7 @@
                                 </div>
                             
                                 <!-- best movie -->
-                                <div class="form-group" style="color:white;">
+                                <div class="form-group" style="color:purple;">
                                     <label for="movies">Best Movie:</label>
                                     <select class="form-control" name="movies">
                                         <option value="xo">Xo kitty</option>
@@ -59,7 +59,7 @@
                             </form>        
                             
                         </div>
-                        <div class="col-lg-6" style="border:solid;font-size: 30px;color:white;background-color:black;">
+                        <div class="col-lg-6" style="border:solid;font-size: 30px;color:purple;background-color:black;">
                             
                                     <div class="form-group" >
                                         <h3>USE MORE OF!</h3>
@@ -88,10 +88,10 @@
                                      
                     </div>
             
-                        <div class="row" style="background-color:yellow; ">
+                        <div class="row" style="background-color:green; ">
                                     
                                
-                                <div class="col-lg-12"style="border:solid; font-size: 30px;color:white;background-color:black;">
+                                <div class="col-lg-12"style="border:solid; font-size: 30px;color:green;background-color:black;">
                                 <p>Basketball256@gmail.com is our address.Visit our website for more workouts.</p>
                                     <h3>Visit our website for more drills. Call us on 0703507646. "Dribble for life".</h3>
                                 </div>

@@ -55,7 +55,8 @@
                                         <option value="grown">Growmish</option>
                                         <option value="love">Love birds</option> 
                                     </select>
-                                </div>   
+                                </div>
+                                <button type="submit" class="btn btn-success">submit</button>   
                             </form>        
                             
                         </div>
@@ -82,7 +83,7 @@
                                             </li>
                                         </ul>    
                                     </div>    
-                                    <input type="submit" >
+                                    
                                 
                         </div>
                                      

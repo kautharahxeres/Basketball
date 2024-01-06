@@ -2,16 +2,14 @@
     <head>
         <meta charset="utf-8">
         <title>Our display </title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+       
         <style>
-            .card{background}
             .row {display: flex; justify-content: space-between; margin-bottom: 10px;}
-            .column {border: 20px solid yellow;padding: 12px; flex: 3;} 
-            button {color:white; background:yellow; }
+            .column {border:20px solid; padding:12px; flex:3;} 
             h2{color:black;}
             h5{color:black;}
         </style>    
-       
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
             
@@ -21,10 +19,20 @@
                         include("nav.html");
                     ?>
                 </div>
+                <div class="row" style="border:8px;">
+                    <div class="col-lg-12" >
+                        <center>
+                            <?php 
+                                include("carousel.html");
+                            ?>
+                        </center>
+                    </div>
+                   
+                </div>    
                  
                 <div class="row" >
                     <div class="col-lg-4" >
-                        <div class="card">
+                        <div class="card" style="background-color:lightblue;">
                             <?php
                                 
                                 function displaycurrentdateandtime() {
@@ -44,7 +52,7 @@
                     </div>
                      
                     <div class="col-lg-4" >
-                        <div class="card" >
+                        <div class="card" style="background-color:lightblue;" >
                             <h2>Basketball rules.</h2>
                             <h5>
                                 <ul type="blackcircle">
@@ -60,7 +68,7 @@
                     </div>
                   
                     <div class="col-lg-4" >
-                        <div class="card">
+                        <div class="card" style="background-color:lightblue;">
                             <h2>Basic positions in basketball.</h2>
                             <h5>
                                 <ul type="blackcircle">
@@ -78,7 +86,7 @@
                 <div class="row">
 
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" style="background-color:lightblue;">
                             <h2>
                                 <marquee>Basketball256@gmail.com is our address.Visit our website for more workouts.</marquee>
                             
@@ -87,7 +95,7 @@
                     </div>
                         
                     <div class="col-lg-4">
-                        <div class="card" >
+                        <div class="card" style="background-color:lightblue;">
                             <h2>
                                 <marquee>Visit our website for more drills. Call us on 0703507646. "Dribble for life". </marquee>
                                 
@@ -97,7 +105,7 @@
                     
                     
                     <div class="col-lg-4">
-                        <div class="card" >
+                        <div class="card" style="background-color:lightblue;">
                             <h2>
                                 <marquee>Follow us on tiktok, facebook, instagram and youtube @Basketball256. </marquee>
                             </h2>

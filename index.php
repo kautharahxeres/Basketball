@@ -12,12 +12,12 @@
       .class1{color: yellow; text-align: right; font-size: larger;}
       .row {display: flex;justify-content: space-between;margin-bottom: 10px; }
       .column {border: 20px solid ;padding: 12px;flex: 3;} 
-      img{ width: 200px; border-radius: 100px;} 
+       
     </style>
     <link rel="stylesheet" href="css/bootstrap.min.css">
    
   </head>
-  <body>
+  <body >
     <div class="container">
       
           <div class="row" >
@@ -30,13 +30,13 @@
         
           <div class="row"style="border:solid 2px green; border-radius:50px;background-color:green;" >
             <div class="col-lg-4" style="border:solid 2px green;border-radius:50px; background-color:lightblue;">
-              <b><h2>Why I love programming.</h2></b>
+              <b><h2>Welcome to Kausha Drills!!!</h2></b>
               <ul type="circle">
-                <li><p>Javascript</p></li>
-                <li><p>Java</p></li>
-                <li><p>Python</p></li>
-                <li><p>PHP</p></li>
-                <li><p>Bootsrap</p></li>
+                <li><p>We have alot in stock for you.</p></li>
+                <li><p>We offer basketball training online and one attains skills in the shortest time possible.</p></li>
+                <li><p>We have tutorials where one get to learn simple moves in the greatest shortest time.</p></li>
+                <li><p>On our page, you get to know to more about basketball.</p></li>
+                <li><p>****basketball is a skill and you gat to attain one now***</p></li>
               </ul>
               <video width="300px" height="200"  controls>
                   <source src="vid.mp4" type="video/mp4">
@@ -46,9 +46,14 @@
             <div class="col-lg-4" style="border:solid 2px green;border-radius:50px;background-color:purple;" >
              <h3>--WEB IMAGE CORNER!!</h3>
              <marquee>
-                <img src="basket1.jpg" >
-                <img src="basket2.jpg" >
-                <img src="basket3.jpg" >
+                <img src="good1.jpg" width= "400" height= "600">
+                <img src="good2.jpg" width= "400" height= "600">
+                <img src="good4.jpg" width= "400" height= "600">
+                <img src="good5.jpg" width= "400" height= "600">
+                <img src="good6.jpg" width= "400" height= "600">
+                <img src="good7.jpg" width= "400" height= "600">
+                <img src="goog8.jpg" width= "400" height= "600">
+                <img src="good3.jpg" width= "400" height= "600">
              </marquee>
             </div>
             <div class="col-lg-4" style="border:solid 2px green;border-radius:50px; background-color:lightblue;" >

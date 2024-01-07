@@ -11,7 +11,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
-    <body>
+    <body style="background-color:lightblue;">
         <h3 style="color:blue;">Fill in carefully!</h3>
         <div class="container-fluid">
         <div class="row"  >

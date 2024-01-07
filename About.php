@@ -22,7 +22,7 @@
 
         </head>
         
-      <body >
+      <body style="background-color:lightblue;">
               
             
             <div class="container-fluid">

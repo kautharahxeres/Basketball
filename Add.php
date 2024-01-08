@@ -20,7 +20,7 @@
         ?>
         </div>  
         <div class="row" >
-                <div class="col-lg-6" style="background-color:lightblue;">
+                <div class="col-lg-6" style="background-color:pink; border:solid blue; border-radius:50px; ">
                         <form action="Action.php" method="POST">
                             <div class="form-group">
                                 <label for="Drills">Drills:</label>
@@ -63,51 +63,52 @@
                                     <option value="Dribble">Dribble for life</option> 
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">submit</button>    
+                            <center><button type="submit" class="btn btn-primary">submit</button></center>    
                         </form>           
                 </div>
                 
-                <div class="col-lg-6" style="background-color:lightblue;">  
+                <div class="col-lg-6" style="background-color:pink; border:solid blue; border-radius:50px; ">  
                         <form>
-                            <h4> GET MORE INFORMATION FROM;</h4>
+                            <center><h4> GET MORE INFORMATION FROM;</h4></center>
                             <ul type="box">
                                 <li>
-                                    <label for="">Tiktok</label>
+                                    <label for="Tiktok">Tiktok</label>
                                     <input type="checkbox" name="tiktok"><br>
                                     <a href="https://tiktok.com">Tiktok</a>
                                 </li>  
                             
                                 <li>
-                                    <label for="">Facebook</label>
+                                    <label for="Facebook">Facebook</label>
                                     <input type="checkbox" name="facebook"><br>
                                     <a href="https://facebook.com">Facebook</a>
                                 </li>
                             
                                 <li>
-                                    <label for="">Youtube</label>
+                                    <label for="Youtube">Youtube</label>
                                     <input type="checkbox" name="youtube"><br>
                                     <a href="https://youtube.com">Youtube</a>
                                 </li>
                             
 
                                 <li>
-                                    <label for="">Instagram</label>
+                                    <label for="Instagram">Instagram</label>
                                     <input type="checkbox" name="instagram"><br>
                                     <a href="https://instagram.com">instagram</a> 
                                 </li>
-                            
+                            <hr>
                             </ul>
-                            <h4>We are located on Equinox shopping mall ,Chopper building Opp.Catelage Restaurant Room132.</h4>
-                            <h4>For more information, call us on;.</h4>
-                            <h4>+256758678458, +256757687476, +256658954975.</h4>
-                            <h4>Basketball256@gmail.com is our email address.</h4>
-                            <h4>"DRIBBLE FOR LIFE"</h4>    
-                            <h4>*******WE LOOK FORWARD TO SERVING YOU*******
-                            <?php
-                                include("manylogos.php");
-                            ?>
-                            </h4>
-                                
+                            <center>
+                                <h4>We are located on Equinox shopping mall ,Chopper building Opp.Catelage Restaurant Room132.</h4>
+                                <h4>For more information, call us on;.</h4>
+                                <h4>+256758678458, +256757687476, +256658954975.</h4>
+                                <h4>Basketball256@gmail.com is our email address.</h4>
+                                <h4>"DRIBBLE FOR LIFE"</h4>    
+                                <h4>*******WE LOOK FORWARD TO SERVING YOU*******
+                                <?php
+                                    include("manylogos.php");
+                                ?>
+                                </h4>
+                            </center>    
                         </form>
                 </div>            
         </div>

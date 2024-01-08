@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
    
   </head>
-  <body >
+  <body style="background-color:pink;">
     <div class="container">
       
           <div class="row" >

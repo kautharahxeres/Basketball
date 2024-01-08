@@ -18,7 +18,7 @@
                         include("nav.html");
                     ?>
                 </div>
-                <img src="capture.JPG" width="1100" height="100"><hr>
+                <img src="capture.JPG" width="1100" height="150"><hr>
                 <div class="row">
                     <div class="col-lg-4" >
                        <div class="card">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="card">
-                            <img src="good6.jpg" width="350" height="250">    
+                            <img src="ball6.jpg" width="350" height="250">    
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -169,9 +169,26 @@
                        </div>
                     </div>
                 </div> 
-                 
-                <div class="row">
 
+                <div class="row">
+                    <div class="col-lg-4" >
+                        <div class="card">
+                            <img src="ball4.jpg" width="350" height="300">
+                        </div>           
+                    </div>  
+                    <div class="col-lg-4" >
+                        <div class="card">
+                            <img src="ball7.jpg" width="350" height="300">
+                        </div>
+                    </div>
+                    <div class="col-lg-4" >
+                        <div class="card">
+                            <img src="ball5.jpg" width="350" height="300">
+                        </div>           
+                    </div>               
+                </div>
+
+                <div class="row">
                     <div class="col-lg-4">
                         <div class="card" style="background-color:lightblue;">
                             <h2>
@@ -190,7 +207,7 @@
                             <h2>
                                 <marquee>
                                     <?php
-                                    include("manylogos.php");
+                                        include("manylogos.php");
                                     ?>
                                 </marquee>
                                 

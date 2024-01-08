@@ -38,8 +38,7 @@
                                     <td>Play Position</td>
                                     <td>Gender</td>
                                     <td>Best Basketball Team</td>
-                                    <td>Edit</td>
-                                    <td>Delete</td>
+                                    <td>Action</td>
                                 </tr>
                                 <tr>
                                     <?php
@@ -55,8 +54,11 @@
                                     <td><?php echo $row['PlayPosition'] ?></td>
                                     <td><?php echo $row['Gender'] ?></td>
                                     <td><?php echo $row['BestBasketballTeam'] ?></td>
-                                    <td><a href="#" class="btn btn-primary">Edit</a></td>
-                                    <td><a href="#" class="btn btn-danger">Delete</a></td>
+                                    <td>
+                                        <a href="updateform.php?id='<?php $row['ID'];?>'">Update info</a>
+                                        <a href="updateform.php?id='<?php $row['ID'];?>'">Delete</a>
+                                        
+                                    </td>
                                 </tr>
                                 <?php
                                 }

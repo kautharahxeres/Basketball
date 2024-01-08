@@ -1,5 +1,5 @@
 <?php
-   require_once("db.php");
+   require_once("connect.php");
 
    $Fname=$_POST['FirstName'];
    $Sname=$_POST['SecondName'];

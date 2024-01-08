@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card"  style="border:solid  ;background-color:pink;" >
-                        <form  action="mega.php" method="POST">
+                        <form  action="process.php" method="POST">
                             <div class="form-group" style="color:purple;">
                                 <label for="FirstName">First Name:</label>
                                 <input type="text" name="FirstName" class="form-control"  placeholder="given name">

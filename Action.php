@@ -20,6 +20,6 @@
    }
    else {
       die("Execute failed:" . mysqli_error($connect));
-   } 
+    } 
    
 ?>

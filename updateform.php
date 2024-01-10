@@ -1,6 +1,15 @@
+
+<?php
+    require_once ("connect.php"); 
+   
+    // $query = "SELECT * FROM basketball WHERE ID=?";
+    // $result = mysqli_query($connect,$query);
+   
+
+?>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta acharset="UTF-8">
         <title>Add info</title>
         <style>
             div{ width:100%; padding:5px}
@@ -20,8 +29,23 @@
         ?>
         </div>  
         <div class="row" >
+            <?php
+              if(isset($_GET['ID'])){
+                $id = $_GET['ID'];
+                 }
+                //  (global variable) string $query
+                 $query= "SELECT * FROM dribble WHERE id =?";
+                 $stmt = mysqli_prepare($connect, $query);
+                 mysqli_stmt_bind_param($stmt, "i", $id);
+                 mysqli_stmt_execute($stmt);
+                 $result = mysqli_stmt_get_result($stmt);
+                 $data = mysqli_fetch_assoc($result);
+                 if ($data){}
+            ?>
                 <div class="col-lg-6" style="background-color:pink; border:solid blue; border-radius:50px; ">
+                
                         <form action="processupdate.php" method="POST">
+                            <input type="hidden" name="ID" value="<?php echo $data ['id'];?>">
                             <div class="form-group">
                                 <label for="Drills">Drills:</label>
                                 <input type="text" name="Drills" class="form-control" placeholder="workouts you know">
@@ -64,7 +88,8 @@
                                 </select>
                             </div>
                             <center><button type="submit" class="btn btn-primary">submit</button></center>    
-                        </form>           
+                        </form>
+                 <?php ?>           
                 </div>
                 
                 <div class="col-lg-6" style="background-color:pink; border:solid blue; border-radius:50px; ">  

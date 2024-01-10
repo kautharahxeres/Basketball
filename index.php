@@ -94,6 +94,41 @@
                     ?>
                       
               </div>
+        </div>
+        <div class="row">
+        
+              
+              <h2 class="display-6 text-center"  style="background-color:white">Fetch Data From Database in Php</h2>
+                  <?php while ($row = mysqli_fetch_assoc($result))?>
+                      <div class="col-md-4 mb-4">
+                          <div class="card-header">
+                              <?php echo $row['ID'] ;?>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['ID'] ?>;</p>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['Drills'] ?>;</p>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['Benefits'] ?>;</p>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['RulesAndRegulations'] ?>;</p>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['Attire'] ?>;</p>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['PlayPosition'] ?>;</p>
+                          </div>
+                          <div class="card-body">
+                              <p class ="card-text"><?php echo $row['Gender'] ?>;</p>
+                          </div>
+                          <div class="card-footer">
+                              <p class ="card-text"><?php echo $row['BestBasketballTeam'] ?>;</p>
+                          </div>
+                      </div>
         </div>         
    
     </div>

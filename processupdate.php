@@ -1,3 +1,4 @@
+
 <?php
    require_once("connect.php");
 
@@ -20,6 +21,5 @@
    }
    else {
       die("Execute failed:" . mysqli_error($connect));
-   } 
-   
+   }    
 ?>

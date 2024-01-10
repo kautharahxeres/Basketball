@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <title>Fetch data From Database in Php</title>
     </head>
-    <body class="bg-black">
+    <body style="background-color:black">
        <div class="container">
             <div class="row">
                 <?php
@@ -23,43 +23,44 @@
             </div>
             <div class="row mt-5">
                 <div class="col">
-                    <div class="card mt-5">
-                        <div class="card-header">
-                            <h2 class="display-6 text-center">Fetch Data From Database in Php</h2>
+                    
+                            <h2 class="display-6 text-center"  style="background-color:white">Fetch Data From Database in Php</h2>
                         </div>
                         <div class="card-body">
-                            <table class="table table-bordered text-center">
-                                <tr class="bg-dark text-white">
-                                    <td>ID</td>
-                                    <td>Drills</td>
-                                    <td>Benefits</td>
-                                    <td>Rules And Regulations</td>
-                                    <td>Attire</td>
-                                    <td>Play Position</td>
-                                    <td>Gender</td>
-                                    <td>Best Basketball Team</td>
-                                    <td>Action</td>
+                            <table class="table table-bordered text-center" style="background-color:lightblue">
+                                <tr class="bg-dark text-white" >
+                                    <td style="background-color:pink">ID</td>
+                                    <td  style="background-color:pink">Drills</td>
+                                    <td  style="background-color:pink">Benefits</td>
+                                    <td style="background-color:pink" >Rules And Regulations</td>
+                                    <td style="background-color:pink" >Attire</td>
+                                    <td style="background-color:pink" >Play Position</td>
+                                    <td style="background-color:pink" >Gender</td>
+                                    <td style="background-color:pink" >Best Basketball Team</td>
+                                    <td style="background-color:pink" >Action</td>
                                 </tr>
-                                <tr>
+                             
                                     <?php
 
                                     while($row = mysqli_fetch_assoc($result))
                                     {
                                     ?>
-                                    <td><?php echo $row['ID'] ?></td>
-                                    <td><?php echo $row['Drills'] ?></td>
-                                    <td><?php echo $row['Benefits'] ?></td>
-                                    <td><?php echo $row['RulesAndRegulations'] ?></td>
-                                    <td><?php echo $row['Attire'] ?></td>
-                                    <td><?php echo $row['PlayPosition'] ?></td>
-                                    <td><?php echo $row['Gender'] ?></td>
-                                    <td><?php echo $row['BestBasketballTeam'] ?></td>
+                               
+                               <tr>    
+                                    <td><?php echo $row['ID']; ?></td>
+                                    <td><?php echo $row['Drills']; ?></td>
+                                    <td><?php echo $row['Benefits']; ?></td>
+                                    <td><?php echo $row['RulesAndRegulations'];?></td>
+                                    <td><?php echo $row['Attire']; ?></td>
+                                    <td><?php echo $row['PlayPosition']; ?></td>
+                                    <td><?php echo $row['Gender']; ?></td>
+                                    <td><?php echo $row['BestBasketballTeam']; ?></td>
                                     <td>
-                                        <a href="updateform.php?id='<?php $row['ID'];?>'">Update info</a>
-                                        <a href="updateform.php?id='<?php $row['ID'];?>'">Delete</a>
-                                        
+                                        <a href="updateform.php?id=<?php echo $row['ID'];?>">Update info</a>
+                                        <a href="updateform.php?id=<?php  echo$row['ID'];?>">Delete</a>    
                                     </td>
                                 </tr>
+                               </div>
                                 <?php
                                 }
 

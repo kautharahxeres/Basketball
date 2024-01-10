@@ -11,7 +11,13 @@
         include("nav.html");
         ?>
         <hr>
-        <b><h1>THIS IS HOW YOU BECOME A WINNER.</h1></b>
+        <center>
+            <b><h1>THIS IS HOW YOU BECOME A WINNER.</h1></b>
+            <?php
+            include("carousel2.html");
+            ?>
+        </center>
+       
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
